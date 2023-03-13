@@ -16,9 +16,9 @@ public class DemoApplication {
 //		}
 
 		MyBean myBean = (MyBean) context.getBean("myBean");
-		var person = (Person) context.getBean(Person.class);
-		System.out.println(myBean);
-		System.out.println(person);
+//		var person = (Person) context.getBean(Person.class);
+		MyBean myBean2 = (MyBean) context.getBean("myBean");
+		MyBean myBean3 = (MyBean) context.getBean("myBean");
 	}
 
 }
